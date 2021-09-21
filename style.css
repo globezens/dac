@@ -6,8 +6,8 @@
 
 @font-face {
 	font-family: "fav";
-	src: url("/Fonts/Font3.ttf") format("ttf supports variations"),
-		 url("/Fonts/Font3.ttf") format("ttf-variations");
+	src: url("/Fonts/Font1-Rec.woff2") format("woff2 supports variations"),
+		 url("/Fonts/Font1-Rec.woff2") format("woff2-variations");
 	font-weight: 200 900;
   }
 	
