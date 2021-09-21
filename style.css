@@ -1,7 +1,12 @@
 
 
+@font-face {
+	font-family: "Rubix";
+	src: url("https://github.com/vigillantoctolamp/vigillantoctolamp.github.io/blob/Main/Fonts/Rubik-VariableFont_wght.ttf");
+	}
+	
 #image {background-image: url(bg.jpg);
-	font-family: Ubuntu;
+	font-family: "Rubix";
 	opacity: 1}
 
 #wrapper{
