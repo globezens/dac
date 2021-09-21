@@ -1,13 +1,21 @@
+:root {
+	--font-fallback: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+	  "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans;
+  }
 
 
 @font-face {
-	font-family: "Rubix";
-	src: url("https://github.com/vigillantoctolamp/vigillantoctolamp.github.io/blob/Main/Fonts/Rubik-VariableFont_wght.ttf");
-	}
+	font-family: "fav";
+	src: url("/Fonts/anrope-Regular.woff2") format("woff2 supports variations"),
+		 url("/Fonts/anrope-Regular.woff2") format("woff2-variations");
+	font-weight: 200 900;
+  }
 	
 #image {background-image: url(bg.jpg);
-	font-family: "Rubix";
-	opacity: 1}
+	font-family: "fav", var(--font-fallback);
+	font-weight: 600;
+	opacity: 1;
+}
 
 #wrapper{
 	border-radius: 10px;
