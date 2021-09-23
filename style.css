@@ -5,20 +5,32 @@
 
 
 @font-face {
-	font-family: "fav";
+	font-family: "Rec";
 	src: url("/Fonts/Font1-Rec.woff2") format("woff2 supports variations"),
 		 url("/Fonts/Font1-Rec.woff2") format("woff2-variations");
 	font-weight: 200 900;
   }
+
+  @font-face {
+	font-family: "Recitalic";
+	src: url("/Fonts/recitalic.woff2") format("woff2 supports variations"),
+		 url("/Fonts/recitalic.woff2") format("woff2-variations");
+	font-weight: 200 900;
+  }
 	
 #image {background-image: url(bg.jpg);
-	font-family: "fav", var(--font-fallback);
+	font-family: "Rec", var(--font-fallback);
 	font-weight: 600;
 	opacity: 1;
 }
 
 strong {
 	font-weight: 900
+}
+
+i {
+	font-weight: 300;
+	font-family: "Recitallic", var(--font-fallback);
 }
 
 #wrapper{
