@@ -17,11 +17,25 @@
 		 url("/Fonts/recitalic.woff2") format("woff2-variations");
 	font-weight: 200 900;
   }
+
+  @font-face {
+	font-family: "Manrope";
+	src: url("/Fonts/Font2-Man.woff2") format("woff2 supports variations"),
+		 url("/Fonts/Font2-Man.woff2") format("woff2-variations");
+	font-weight: 200 900;
+  }
+
 	
 #image {background-image: url(bg.jpg);
-	font-family: "Rec", var(--font-fallback);
+	font-family: "Manrope", var(--font-fallback);
 	font-weight: 420;
 	opacity: 1;
+}
+
+#heading {
+	font-family: "Rec", var(--font-fallback);
+	font-weight: 600;
+	text-align: center;	
 }
 
 strong {
