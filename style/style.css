@@ -25,6 +25,13 @@
 	font-weight: 300 900;
   }
 
+  @font-face {
+	font-family: "Ittalic";
+	src: url("/Fonts/Rubik/Ittalic.ttf") format("truetype"),
+		 url("/Fonts/Rubik/Ittalic.ttf") format("truetype");
+	font-weight: 300 900;
+  }
+
 
 	
 #image {background-image: url(bg.jpg);
@@ -39,13 +46,11 @@
 	text-align: center;	
 }
 
-strong {
-	font-weight: 900
-}
+
 
 i {
 	font-weight: 415;
-	font-family: "Recitallic", var(--font-fallback);
+	font-family: "Ittalic", var(--font-fallback);
 }
 
 #wrapper{
