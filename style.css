@@ -13,12 +13,12 @@
 	
 #image {background-image: url(bg.jpg);
 	font-family: "fav", var(--font-fallback);
-	font-weight: 900;
+	font-weight: 600;
 	opacity: 1;
 }
 
 b {
-	font-weight: 700
+	font-weight: 900
 }
 
 #wrapper{
