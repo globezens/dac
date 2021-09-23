@@ -6,28 +6,29 @@
 
 @font-face {
 	font-family: "Rec";
-	src: url("/Fonts/Font1-Rec.woff2") format("woff2 supports variations"),
-		 url("/Fonts/Font1-Rec.woff2") format("woff2-variations");
+	src: url("/Fonts/Recrusive/Font1-Rec.woff2") format("woff2 supports variations"),
+		 url("/Fonts/Recrusive/Font1-Rec.woff2") format("woff2-variations");
 	font-weight: 200 900;
   }
 
   @font-face {
 	font-family: "Recitalic";
-	src: url("/Fonts/recitalic.woff2") format("woff2 supports variations"),
-		 url("/Fonts/recitalic.woff2") format("woff2-variations");
+	src: url("/Fonts/Recrusive/rectalic.woff2") format("woff2 supports variations"),
+		 url("/Fonts/Recrusive/recitalic.woff2") format("woff2-variations");
 	font-weight: 200 900;
   }
 
   @font-face {
-	font-family: "Manrope";
-	src: url("/Fonts/Font2-Man.woff2") format("woff2 supports variations"),
-		 url("/Fonts/Font2-Man.woff2") format("woff2-variations");
-	font-weight: 200 900;
+	font-family: "Rubik";
+	src: url("/Fonts/Rubik/Rubik.ttf") format("truetype"),
+		 url("/Fonts/Rubik/Rubik.ttf") format("truetype");
+	font-weight: 300 900;
   }
+
 
 	
 #image {background-image: url(bg.jpg);
-	font-family: "Manrope", var(--font-fallback);
+	font-family: "Rubik", var(--font-fallback);
 	font-weight: 420;
 	opacity: 1;
 }
@@ -43,7 +44,7 @@ strong {
 }
 
 i {
-	font-weight: 390;
+	font-weight: 415;
 	font-family: "Recitallic", var(--font-fallback);
 }
 
