@@ -17,6 +17,10 @@
 	opacity: 1;
 }
 
+b {
+	font-weight: 700
+}
+
 #wrapper{
 	border-radius: 10px;
 	width:980px;
