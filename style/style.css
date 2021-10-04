@@ -34,10 +34,10 @@
 }
 
 #image {
-  background-image: url(/Images/bg.jpg);
   font-family: "Rubik", var(--font-fallback);
   font-weight: 420;
   opacity: 1;
+  background-color: black;
 }
 
 #heading {
@@ -55,7 +55,7 @@ i {
   border-radius: 10px;
   width: 980px;
   height: 768px;
-  background-color: grey;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
 }
@@ -64,7 +64,7 @@ i {
   border-radius: 8px;
   width: 960px;
   height: 130px;
-  background-color: grey;
+  background-color: black;
   color: darkgray;
   font-size: 55px;
   padding-top: 20px;
@@ -111,7 +111,7 @@ i {
   border-radius: 8px;
   width: 980px;
   height: 1259px;
-  background-color: grey;
+  background-color: black;
 }
 
 #footer {
@@ -128,7 +128,7 @@ i {
   border-radius: 8px;
   width: 740px;
   height: 1250px;
-  background-color: darkgrey;
+  background-color: black;
   color: #fff;
   float: left;
   margin: 5px;
@@ -139,7 +139,7 @@ i {
   border-radius: 8px;
   width: 225px;
   height: 1250px;
-  background-color: darkgrey;
+  background-color: black;
   color: #fff;
   float: left;
   margin: 5px 5px 5px 0;
