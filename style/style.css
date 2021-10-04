@@ -64,7 +64,7 @@ i {
   border-radius: 8px;
   width: 960px;
   height: 130px;
-  background-color: #000080;
+  background-color: blue;
   color: #fff;
   font-size: 55px;
   padding-top: 20px;
@@ -103,7 +103,7 @@ i {
 
 #menubar ul li a:hover {
   border-radius: 8px;
-  color:blue;
+  color: blue;
   background-color: #000;
 }
 
@@ -118,7 +118,7 @@ i {
   border-radius: 8px;
   width: 980px;
   height: 40px;
-  background-color: #000080;
+  background-color: blue;
   color: #fff;
   text-align: center;
   line-height: 40px;
@@ -129,7 +129,7 @@ i {
   width: 740px;
   height: 1250px;
   background-color: #000;
-  color: #fff
+  color: #fff;
   float: left;
   margin: 5px;
   text-align: center;
@@ -140,7 +140,7 @@ i {
   width: 225px;
   height: 1250px;
   background-color: #000;
-  color: #000080;
+  color: #fff;
   float: left;
   margin: 5px 5px 5px 0;
   text-align: center;
