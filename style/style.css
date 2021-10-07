@@ -148,24 +148,22 @@ i {
   text-align: center;
 }
 
-#link-style {
-  /* unvisited link */
-  a:link {
-    color: red;
-  }
+/* normal link */
+#link-style a {
+  color: red;
+}
 
-  /* visited link */
-  a:visited {
-    color: green;
-  }
+/* visited link */
+#link-style a:visited {
+  color: green;
+}
 
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
+/* mouse over link */
+#link-style a:hover {
+  color: hotpink;
+}
 
-  /* selected link */
-  a:active {
-    color: blue;
-  }
+/* selected link */
+#link-style a:active {
+  color: blue;
 }
