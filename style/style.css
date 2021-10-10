@@ -129,7 +129,7 @@ i {
   border-radius: 8px;
   width: 740px;
   height: 1250px;
-  background-color: #0e0e0e;
+  background-color: #0a0a0b;
   color: #ff4649;
   float: left;
   margin: 5px;
@@ -173,7 +173,7 @@ i {
 }
 
 #abcd a:visited {
-  color: lightseagreen;
+  color: lightgreen;
 }
 
 /* mouse over link */
