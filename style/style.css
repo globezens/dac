@@ -172,11 +172,11 @@ i {
   color: #45cfff;
 }
 
-#link-style a:visited {
+#minorlink-style a:visited {
   color: lightseagreen;
 }
 
 /* mouse over link */
-#link-style a:hover {
+#minorlink-style a:hover {
   color: whitesmoke;
 }
