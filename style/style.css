@@ -165,5 +165,18 @@ i {
 
 /* selected link */
 #link-style a:active {
-  color: lightblue;
+  color: #45cfff;
+}
+
+#minorlink-style a {
+  color: #45cfff;
+}
+
+#link-style a:visited {
+  color: lightseagreen;
+}
+
+/* mouse over link */
+#link-style a:hover {
+  color: whitesmoke;
 }
