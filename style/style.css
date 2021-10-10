@@ -168,15 +168,15 @@ i {
   color: #45cfff;
 }
 
-#minorlink-style a {
+#minor-style a {
   color: #45cfff;
 }
 
-#minorlink-style a:visited {
+#minor-style a:visited {
   color: lightseagreen;
 }
 
 /* mouse over link */
-#minorlink-style a:hover {
+#minor-style a:hover {
   color: whitesmoke;
 }
