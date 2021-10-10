@@ -168,15 +168,15 @@ i {
   color: #45cfff;
 }
 
-#minor-style a {
+#abcd a {
   color: #45cfff;
 }
 
-#minor-style a:visited {
+#abcd a:visited {
   color: lightseagreen;
 }
 
 /* mouse over link */
-#minor-style a:hover {
+#abcd a:hover {
   color: whitesmoke;
 }
