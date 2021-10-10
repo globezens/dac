@@ -155,7 +155,7 @@ i {
 
 /* visited link */
 #link-style a:visited {
-  color: green;
+  color: lightgreen;
 }
 
 /* mouse over link */
