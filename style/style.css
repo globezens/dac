@@ -35,7 +35,7 @@
 
 #image {
   background-image: url();
-  background-color: #242424;
+  background-color: #212426;
   font-family: "Rubik", var(--font-fallback);
   font-weight: 420;
   opacity: 1;
@@ -104,7 +104,7 @@ i {
 
 #menubar ul li a:hover {
   border-radius: 8px;
-  color: #ed2123;
+  color: #ff4649;
   background-color: #000;
 }
 
@@ -130,7 +130,7 @@ i {
   width: 740px;
   height: 1250px;
   background-color: #0e0e0e;
-  color: #ed2123;
+  color: #ff4649;
   float: left;
   margin: 5px;
   text-align: center;
@@ -140,7 +140,7 @@ i {
   border-radius: 8px;
   width: 225px;
   height: 1250px;
-  background-color: #ed2123;
+  background-color: #ff4649;
   color: aliceblue;
   float: left;
   margin: 5px 5px 5px 0;
@@ -150,7 +150,7 @@ i {
 
 /* normal link */
 #link-style a {
-  color: red;
+  color: #ff4649;
 }
 
 /* visited link */
@@ -165,5 +165,5 @@ i {
 
 /* selected link */
 #link-style a:active {
-  color: blue;
+  color: lightblue;
 }
