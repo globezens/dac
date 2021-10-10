@@ -40,7 +40,28 @@
   font-weight: 420;
   opacity: 1;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #292d30;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5e656b;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7a848a;
+  border-radius: 5px;
+}
 #heading {
   font-family: "Rec", var(--font-fallback);
   font-weight: 600;
