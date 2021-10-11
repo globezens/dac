@@ -184,26 +184,6 @@ i {
   color: whitesmoke;
 }
 
-.header {
-  position: fixed;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: #f1f1f1;
-}
-
-.progress-container {
-  width: 100%;
-  height: 8px;
-  background: #292d30;
-}
-
-.progress-bar {
-  height: 8px;
-  background: #ff1011;
-  width: 0%;
-}
-
 /* width */
 ::-webkit-scrollbar {
   width: 15px;
@@ -226,3 +206,28 @@ i {
   background: #7a848a;
   border-radius: 5px;
 }
+
+
+    body {
+        margin: 0;
+    }
+  
+    /* Formatting text to 
+    fill the page */
+    .text {
+        font-size: 80px;
+        color: green;
+        text-align: center;
+        line-height: 3em;
+    }
+  
+    /* The progress bar - 
+    scroll indicator */
+    .line {
+        background: green;
+        height: 8px;
+        border-radius: 4px;
+        width: 0%;
+        position: fixed;
+        top: 0;
+    }
