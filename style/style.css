@@ -207,27 +207,3 @@ i {
   border-radius: 5px;
 }
 
-
-    body {
-        margin: 0;
-    }
-  
-    /* Formatting text to 
-    fill the page */
-    .text {
-        font-size: 80px;
-        color: green;
-        text-align: center;
-        line-height: 3em;
-    }
-  
-    /* The progress bar - 
-    scroll indicator */
-    .line {
-        background: green;
-        height: 8px;
-        border-radius: 4px;
-        width: 0%;
-        position: fixed;
-        top: 0;
-    }
