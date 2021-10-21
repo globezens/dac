@@ -5,31 +5,31 @@
 
 @font-face {
   font-family: "Rec";
-  src: url("/Fonts/Recrusive/Font1-Rec.woff2")
+  src: url("../Fonts/Recrusive/Font1-Rec.woff2")
       format("woff2 supports variations"),
-    url("/Fonts/Recrusive/Font1-Rec.woff2") format("woff2-variations");
+    url("../Fonts/Recrusive/Font1-Rec.woff2") format("woff2-variations");
   font-weight: 200 900;
 }
 
 @font-face {
-  font-family: "Recitalic";
-  src: url("/Fonts/Recrusive/rectalic.woff2")
+  font-family: "Reci";
+  src: url("../Fonts/Recrusive/rectalic.woff2")
       format("woff2 supports variations"),
-    url("/Fonts/Recrusive/recitalic.woff2") format("woff2-variations");
+    url("../Fonts/Recrusive/recitalic.woff2") format("woff2-variations");
   font-weight: 200 900;
 }
 
 @font-face {
   font-family: "Rubik";
-  src: url("/Fonts/Rubik/Rubik.ttf") format("truetype"),
-    url("/Fonts/Rubik/Rubik.ttf") format("truetype");
+  src: url("../Fonts/Rubik/Rubik.ttf") format("truetype"),
+    url("../Fonts/Rubik/Rubik.ttf") format("truetype");
   font-weight: 300 900;
 }
 
 @font-face {
-  font-family: "Ittalic";
-  src: url("/Fonts/Rubik/Ittalic.ttf") format("truetype"),
-    url("/Fonts/Rubik/Ittalic.ttf") format("truetype");
+  font-family: "I";
+  src: url("../Fonts/Rubik/Ittalic.ttf") format("truetype"),
+    url("../Fonts/Rubik/Ittalic.ttf") format("truetype");
   font-weight: 300 900;
 }
 
@@ -42,7 +42,7 @@
 }
 
 #heading {
-  font-family: "Rec", var(--font-fallback);
+  font-family: "Reci", var(--font-fallback);
   font-weight: 600;
   text-align: center;
 }
@@ -206,4 +206,3 @@ i {
   background: #7a848a;
   border-radius: 5px;
 }
-
